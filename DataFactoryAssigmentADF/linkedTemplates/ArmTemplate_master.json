@@ -11,6 +11,14 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureStorage'"
 		},
+		"AzureStorageTwo_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureStorageTwo'"
+		},
+		"Web_Servicetwo_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://www.reddit.com/r/sports/comments/.json?sort=new&limit=100"
+		},
 		"Web_linkedservice_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://www.reddit.com/r/sports/comments/.json?sort=new&limit=100"
@@ -44,6 +52,12 @@
 					},
 					"AzureStorage_connectionString": {
 						"value": "[parameters('AzureStorage_connectionString')]"
+					},
+					"AzureStorageTwo_connectionString": {
+						"value": "[parameters('AzureStorageTwo_connectionString')]"
+					},
+					"Web_Servicetwo_properties_typeProperties_url": {
+						"value": "[parameters('Web_Servicetwo_properties_typeProperties_url')]"
 					},
 					"Web_linkedservice_properties_typeProperties_url": {
 						"value": "[parameters('Web_linkedservice_properties_typeProperties_url')]"

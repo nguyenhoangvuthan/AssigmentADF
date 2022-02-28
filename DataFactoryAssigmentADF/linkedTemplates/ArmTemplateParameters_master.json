@@ -8,6 +8,12 @@
 		"AzureStorage_connectionString": {
 			"value": ""
 		},
+		"AzureStorageTwo_connectionString": {
+			"value": ""
+		},
+		"Web_Servicetwo_properties_typeProperties_url": {
+			"value": "https://www.reddit.com/r/sports/comments/.json?sort=new&limit=100"
+		},
 		"Web_linkedservice_properties_typeProperties_url": {
 			"value": "https://www.reddit.com/r/sports/comments/.json?sort=new&limit=100"
 		},
