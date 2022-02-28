@@ -1,0 +1,17 @@
+{
+	"name": "DataWebTwo",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Web_Servicetwo",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation"
+			}
+		},
+		"schema": {}
+	}
+}

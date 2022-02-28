@@ -1,0 +1,22 @@
+{
+	"name": "DataWebThree",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Web_Servicetwo",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"p_ds_url": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation"
+			}
+		},
+		"schema": {}
+	}
+}

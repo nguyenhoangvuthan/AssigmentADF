@@ -1,8 +1,8 @@
 {
-	"name": "DataJson",
+	"name": "DataJsonTwo",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "AzureStorage",
+			"referenceName": "AzureStorageTwo",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
@@ -10,10 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": {
-					"value": "@concat('Data Json', utcNow(),'.json')",
-					"type": "Expression"
-				},
+				"fileName": "DataJsonfile.json",
 				"container": "source"
 			}
 		},
