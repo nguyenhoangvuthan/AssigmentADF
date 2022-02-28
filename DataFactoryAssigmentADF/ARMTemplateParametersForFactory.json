@@ -1,0 +1,15 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "DataFactoryAssigmentADF"
+		},
+		"AzureStorage_connectionString": {
+			"value": ""
+		},
+		"Web_linkedservice_properties_typeProperties_url": {
+			"value": "https://www.reddit.com/r/sports/comments/.json?sort=new&limit=100"
+		}
+	}
+}
