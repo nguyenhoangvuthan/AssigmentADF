@@ -1,9 +1,9 @@
 {
-	"name": "pipeline1",
+	"name": "CopyDataAssigmentADF",
 	"properties": {
 		"activities": [
 			{
-				"name": "Copy data1",
+				"name": "Copy data to Json",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
