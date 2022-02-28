@@ -1,0 +1,12 @@
+{
+	"name": "Web_linkedservice",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://www.reddit.com/r/sports/comments/.json?sort=new&limit=100",
+			"enableServerCertificateValidation": false,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
